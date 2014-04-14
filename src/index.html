@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Bootstrap HTML</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="assets/js/lib/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="btn-group">
+			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+				Themes <span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu themes" role="menu">
+			</ul>
+		</div>
+		<!-- build:include plugins/datepicker.html -->
+		<!-- /build -->
+	</div>
+
+	<script src="assets/js/lib/jquery.bootswatch.js"></script>
+	<script src="assets/js/bootstrap.js"></script>
+	<script src="assets/js/bootstrap-html.js"></script>
+	<script>
+		(function($) {
+			$(document).ready(function($) {
+				$('.themes').bootswatch();
+			});
+		})(jQuery);
+	</script>
+</body>
+</html>
