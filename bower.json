@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-html",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "ignore": [
     "bower_components",
     ".gitignore",
@@ -15,6 +15,7 @@
     "bootstrap-spinner": "~1.1",
     "bootstrap-switch": "~3.0.0",
     "jquery": "~1.10.2",
-    "jquery-bootswatch": "~0.0"
+    "jquery-bootswatch": "~0.0",
+    "jasny-bootstrap": "~3.1.1"
   }
 }
