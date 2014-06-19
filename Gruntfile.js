@@ -50,7 +50,7 @@ module.exports = function(grunt) {
         expand: true,
         flatten: true,
         src: [
-          'bower_components/jquery/jquery.min.js',
+          'bower_components/jquery/dist/jquery.min.js',
           'bower_components/jquery-bootswatch/jquery.bootswatch.js'
         ],
         dest: 'dist/assets/js/lib/'
